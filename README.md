@@ -1,5 +1,5 @@
 # Epigenetic-Clock
-This program analyzes methylation levels at six CpG sites in the genome to produce a prediction of an individual's biological age, using different machine learning and deep learning models.
+This program analyzes methylation levels at six CpG sites in the genome of blood cells to produce a prediction of an individual's biological age, using different machine learning and deep learning models.
 ## Background
 Scientists define there to be two main types of age: chronological, and biological age. Chronological age is based on how long you have been alive (years since birth), whereas biological age is a rough estimate of how healthy your body is by measuring various different biomarkers. For more information on this, check out my recent article on biological age right here: [What is Biological Age?](https://medium.com/biotein/what-is-biological-age-383692f53e60)
 
