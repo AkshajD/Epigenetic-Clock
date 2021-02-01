@@ -1,5 +1,5 @@
 # Blood-Based Epigenetic Clock
-This program analyzes methylation levels at six CpG sites in the genome of blood cells to produce a prediction of an individual's biological age, using different machine learning and deep learning models.
+This program analyzes methylation levels at six CpG sites in the genome of blood cells to produce a prediction of an individual's biological age, using different machine learning and deep learning models. The code can be found in the [Epigenetic_Clock.ipynb](https://github.com/AkshajD/Epigenetic-Clock/blob/main/Epigenetic_Clock.ipynb) file.
 ## Background
 Scientists define there to be two main types of age: chronological, and biological age. Chronological age is based on how long you have been alive (years since birth), whereas biological age is a rough estimate of how healthy your body is by measuring various different biomarkers. For more information on this, check out my recent article on biological age right here: [What is Biological Age?](https://medium.com/biotein/what-is-biological-age-383692f53e60)
 
@@ -20,3 +20,8 @@ The original GSE datasets also had gender as a categorical variable (Male or Fem
 Other forms of data cleaning, like removing text from the age column, were also required, but are not crucial enough to delve into.
 
 The folder Subsets contains all the datasets used to form the overall final dataset, Methylation_Dataset.csv. The final dataset has 1440 patients, but many of these patients lack some crucial data (such as methylation levels and age), and are thus are dropped in the code, bringing the patient count down to 1334 patients.
+
+# Run The Code Yourself
+Launch the repository and notebook using the Binder link below (will open the Binder webpage with a loading screen while it connects to a server). Simply click the button, and wait for the server to connect. Once it's done so, it'll open a Jupyter notebook on your browser with the repository. Simply click the Epigenetic_Clock.ipynb file to open the code, and you may then run and edit the code yourself (without any changes being made to my server).   
+   
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AkshajD/Epigenetic-Clock/HEAD)
