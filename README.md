@@ -1,5 +1,5 @@
 # Blood Methylome-Based Epigenetic Clock
-This program analyzes methylation levels at six CpG sites in the genome of blood cells to produce a prediction of an individual's biological age, using different machine learning and deep learning models. The code can be found in the [Epigenetic_Clock.ipynb](https://github.com/AkshajD/Epigenetic-Clock/blob/main/Epigenetic_Clock.ipynb) file.
+This program analyzes methylation levels at six CpG sites in the genome of blood cells to produce a prediction of an individual's biological age, using different machine learning and deep learning models. The code and analysis can be found in the [Epigenetic_Clock.ipynb](https://github.com/AkshajD/Epigenetic-Clock/blob/main/Epigenetic_Clock.ipynb) notebook.
 ## Background
 Scientists define there to be two main types of age: chronological, and biological age. Chronological age is based on how long you have been alive (years since birth), whereas biological age is a rough estimate of how healthy your body is by measuring various different biomarkers. For more information on this, check out my recent article on biological age right here: [What is Biological Age?](https://medium.com/biotein/what-is-biological-age-383692f53e60)
 
@@ -25,7 +25,7 @@ The folder Datasets contains all the datasets used to form the overall final hea
 ## Explaining the Notebook
 The [notebook](https://github.com/AkshajD/Epigenetic-Clock/blob/main/Epigenetic_Clock.ipynb) starts off by first importing the necessary modules and initializing the scaler. These two steps need to be performed regardless of whether you're experimenting with both the healthy patient and diseased patient sections of the notebook, or just one of them. After that, the healthy data is cleaned and used to train the 4 models, evaluating each of their performances on a test set. From this section, the Random Forest Regression model is saved for later use if it has higher accuracy than the one already stored there. In the next section, the Random Forest Regression model is used on the diseased patients as a whole, and on individual subsets for each of the diseases. This section can use either the model created in the healthy patient section, or if you are just playing around with the diseased section, it can load the saved model.
 
-# Run The Code Yourself
+# Run the Code Yourself
 Launch the repository and notebook using the Binder link below (will open the Binder webpage with a loading screen while it connects to a server). Simply click the button, and wait for the server to connect. Once it's done so, it'll open a Jupyter notebook on your browser with the repository. Simply click the Epigenetic_Clock.ipynb file to open the code, and you may then run and edit the code yourself (without any changes being made to my server). It might take some time to load in depending on if there are any servers available to run the code, so please try and be patient.  
    
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AkshajD/Epigenetic-Clock/HEAD)
